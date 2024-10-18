@@ -1,0 +1,96 @@
+body {
+    background-image: url("../imgs/products_page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Default text color */
+}
+
+.heading {
+    text-align: center;
+    padding: 20px;
+    color: white; /* Text color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* For visibility on background */
+}
+
+.search-div {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+}
+
+.search-div label {
+    margin-right: 10px; /* Space out the labels */
+    color: #333; /* Text color */
+}
+
+.search-div select, .search-div input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Smooth rounded corners */
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent */
+}
+
+.search-div button {
+    padding: 10px 20px; /* More padding for button */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Button color */
+    color: white; /* Text color */
+    cursor: pointer;
+}
+
+.search-div button:hover {
+    background-color: #45a049; /* Hover effect */
+}
+
+.result_table {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.result_table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.result_table th, .result_table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.form-div {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+}
+
+.form-div input,
+.form-div select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Smooth rounded corners */
+    background: white; /* Solid background for visibility */
+}
+
+.form-div input[type="submit"] {
+    padding: 10px 20px; /* More padding for the submit button */
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.form-div input[type="submit"]:hover {
+    background-color: #45a049; /* Hover effect */
+}
